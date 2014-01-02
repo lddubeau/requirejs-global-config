@@ -1,0 +1,1 @@
+This repository illustrates how to make the ``config`` section specific to a module available to all other modules in an application. Here, the module named ``global`` exports its ``config`` to all. The ``main`` module (in ``main.js``) requies ``global`` and reads the ``url`` setting.

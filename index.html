@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml; charset=utf-8"/>
+    <script type="text/javascript" src="js/require.js"></script>
+  </head>
+  <body>
+    <script>
+      require.config({
+          baseUrl: "./js",
+          config: {
+              global: {
+                  url: 'http://test.herokuapp.com'
+              }
+          }
+      });
+      require(["main"], function () {
+          // ...
+      });
+    </script>
+  </body>
+</html>
